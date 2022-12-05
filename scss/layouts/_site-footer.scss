@@ -7,9 +7,21 @@
     padding-bottom: 60px;
     padding-left: 15px;
     padding-right: 15px;
+    text-align: center;
+}
+
+@media (max-width: 768px)  
+{   .footer__section{
+flex-direction: column;    }
 }
 
 .footer {
     background-color: variables.$backgroud-color;
     display: flex;
+}
+
+@media (min-width: 768px) and (max-width: 1200px)  
+{ .footer__section{
+    flex-wrap: wrap;
+    }
 }

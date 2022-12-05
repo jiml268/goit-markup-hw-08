@@ -1,9 +1,20 @@
 @use "../utils/variables";
+.footer-address-container{
+    margin-left: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px)  
+{ .footer-address-container{
+    margin-left: 76px;
+    margin-right: 165px;
+    margin-bottom: 50px;
+}
+}
+
 .footer-address {
     display: flex;
     font-style: normal;
     color: variables.$white-text-color;
-    width: 231px;
 
     &:hover,
     &:focus {
@@ -16,7 +27,9 @@
     font-size: 14px;
     line-height: calc(24/14);
     color: variables.$white-text-color;
+    /*
     width: 231px;
+    */
 }
 
 

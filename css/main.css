@@ -262,6 +262,17 @@ body {
   padding-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+  .find-us__head {
+    text-align: center;
+  }
+  .find-us-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    margin-bottom: 60px;
+  }
+}
 .footer__section {
   width: 1200px;
   display: flex;
@@ -270,18 +281,39 @@ body {
   padding-bottom: 60px;
   padding-left: 15px;
   padding-right: 15px;
+  text-align: center;
 }
 
+@media (max-width: 768px) {
+  .footer__section {
+    flex-direction: column;
+  }
+}
 .footer {
   background-color: #2F303A;
   display: flex;
 }
 
+@media (min-width: 768px) and (max-width: 1200px) {
+  .footer__section {
+    flex-wrap: wrap;
+  }
+}
+.footer-address-container {
+  margin-left: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .footer-address-container {
+    margin-left: 76px;
+    margin-right: 165px;
+    margin-bottom: 50px;
+  }
+}
 .footer-address {
   display: flex;
   font-style: normal;
   color: #ffffff;
-  width: 231px;
 }
 .footer-address:hover, .footer-address:focus {
   color: #2196f3;
@@ -292,7 +324,9 @@ body {
   font-size: 14px;
   line-height: 1.7142857143;
   color: #ffffff;
+  /*
   width: 231px;
+  */
 }
 
 .footer-address__contact {
@@ -490,7 +524,7 @@ header {
 
 @media (min-width: 1200px) {
   .hero-section {
-    height: 600px;
+    height: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/studio/hero-backgroung-image.jpg);
   }
 }
@@ -590,6 +624,11 @@ header {
   color: #1976d2;
 }
 
+@media (max-width: 768px) {
+  .footer-address__logo {
+    text-align: center;
+  }
+}
 .modal-window__close-button {
   width: 30px;
   height: 30px;
@@ -1058,6 +1097,34 @@ header {
   margin-right: 12px;
 }
 
+@media (max-width: 768px) {
+  .newsletter {
+    margin: 0 auto;
+  }
+  .newsletter__head {
+    text-align: center;
+  }
+  .newsletter__form {
+    flex-direction: column;
+  }
+  .newsletter__lable {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .newsletter {
+    margin: 0 auto;
+  }
+  .newsletter__head {
+    text-align: center;
+  }
+  .newsletter__form {
+    flex-direction: column;
+  }
+  .newsletter__lable {
+    margin-bottom: 20px;
+  }
+}
 .newsletter__input {
   padding: 15px;
   width: 358px;

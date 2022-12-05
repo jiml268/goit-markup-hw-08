@@ -3,6 +3,8 @@
     margin-left: 70px;
 }
 
+
+
 .find-us__head {
     font-weight: 700;
     font-size: 14px;
@@ -11,4 +13,17 @@
     text-transform: uppercase;
     color: variables.$white-text-color;
     padding-bottom: 20px;
+}
+
+@media (max-width: 768px)  
+{
+    .find-us__head {
+        text-align: center;
+    }
+    .find-us-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    margin-bottom: 60px;
+}
 }

@@ -23,6 +23,39 @@
 .newsletter__lable {
     margin-right: 12px;
 }
+@media (max-width: 768px)  { 
+.newsletter {
+    margin: 0 auto;
+}
+.newsletter__head {
+text-align: center;
+}
+
+  .newsletter__form{
+    flex-direction: column;
+    }
+
+    .newsletter__lable{
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px)  {
+.newsletter {
+    margin: 0 auto;
+}
+.newsletter__head {
+text-align: center;
+}
+
+  .newsletter__form{
+    flex-direction: column;
+    }
+
+    .newsletter__lable{
+        margin-bottom: 20px;
+    }
+}
 
 .newsletter__input {
     padding: 15px;
