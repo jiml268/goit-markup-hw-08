@@ -315,6 +315,12 @@ body {
     text-align: center;
   }
 }
+@media (max-width: 767px) {
+  .footer-address-container {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
 .footer-address {
   display: flex;
   font-style: normal;
