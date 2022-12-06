@@ -1,13 +1,11 @@
 @use "../utils/variables";
 .footer__section {
-    width: 1200px;
     display: flex;
     align-items: baseline;
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 15px;
     padding-right: 15px;
-    text-align: center;
 }
 
 @media (max-width: 768px)  

@@ -21,9 +21,6 @@
     
 &:hover,
 &:focus {
-        font-size: 14px;
-        line-height: calc(14/16);
-        letter-spacing: 0.02em;
         color: variables.$accent-color;
         fill: variables.$accent-color;
     }

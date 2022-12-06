@@ -15,6 +15,14 @@
     padding-bottom: 20px;
 }
 
+@media (min-width: 768px) and (max-width: 1199px)  
+{.find-us-container {
+    margin-left: 165px;
+    text-align: center;
+}
+}
+
+
 @media (max-width: 768px)  
 {
     .find-us__head {
