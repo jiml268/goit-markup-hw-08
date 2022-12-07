@@ -183,15 +183,17 @@
           <h2 class="our-team__title">Our Team</h2>
           <ul class="our-team__list">
             <li class="our-team__item">
-              <img class="our-team__image"
-               
-  srcset="./images/studio/christopher-walker.jpg 270w,
-  ./images/studio/christopher-walker-m.jpg 354w,
-  ./images/studio/christopher-walker-l.jpg 450w"
-  sizes="(max-width:767px) 450px, (max-width:1199px) 354px, (min-width: 1200) 270px, 270px" 
-  src="./images/studio/christopher-walker.jpg"
-              alt="picture of Christopher Walker"               
-              />
+              <picture>
+                <source srcset="./images/studio/Christopher-Walker-desk.jpg 1x, ./images/studio/Christopher-Walker-desk@2x.jpg 2x" 
+                media="(min-width: 1200px)" width="270" height="260"/>
+                 <source srcset="./images/studio/Christopher-Walker-tablet.jpg 1x, ./images/studio/Christopher-Walker-tablet@2x.jpg 2x" 
+                 media="(min-width: 768px)" width="354" height="374"
+                 />
+                 <source srcset="./images/studio/Christopher-Walker-mobile.jpg 1x, ./images/studio/Christopher-Walker-mobile@2x.jpg 2x" 
+                 media="(min-width: 320px)" width="450" height="460"
+                 />
+                <img class="our-team__image" src="./images/studio/Christopher-Walker-desk.jpg" alt="Christopher Walker" width="270" height="260"/>
+              </picture >
               <div class="our-team__item-description">
                 <h3 class="our-team__employee-name">Christopher Walker</h3>
                 <p class="our-team__employee-postion">Product Designer</p>

@@ -12,6 +12,21 @@
         color: variables.$button-hover-color; 
      }
 }
+@media (max-width: 768px){
+    .header__logo {
+        font-size: 24px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+
+@media (min_width: 768) and (max-width: 1199px){
+    .header__logo {
+        font-size: 24px
+}
+}
+
+
 
 .footer-address__logo {
     display: block;
