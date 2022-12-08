@@ -54,12 +54,12 @@ body {
   margin: 0 auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .container {
     width: 450px;
   }
 }
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .container {
     width: 768px;
   }
@@ -204,7 +204,7 @@ body {
   color: #757575;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .feature__item {
     width: 450px;
   }
@@ -215,7 +215,7 @@ body {
     padding: 25px 192px;
   }
 }
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .feature__item {
     width: 354px;
     margin-bottom: 30px;
@@ -259,7 +259,7 @@ body {
     text-align: center;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .find-us__head {
     text-align: center;
   }
@@ -279,7 +279,7 @@ body {
   padding-right: 15px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .footer__section {
     flex-direction: column;
   }
@@ -289,7 +289,7 @@ body {
   display: flex;
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .footer__section {
     flex-wrap: wrap;
   }
@@ -299,7 +299,7 @@ body {
   width: 231px;
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .footer-address-container {
     margin-left: 76px;
     margin-bottom: 50px;
@@ -337,6 +337,16 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.header__hamberger-menu {
+  display: none;
+  margin-left: 284px;
+}
+
+@media (max-width: 767px) {
+  .header__hamberger-menu {
+    display: flex;
+  }
+}
 .menu-toggle {
   min-height: 40px;
   min-width: 40px;
@@ -352,14 +362,14 @@ body {
   outline: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .menu-toggle {
     display: none;
   }
 }
 .menu-toggle:hover,
 .menu-toggle:focus {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #1976d2;
 }
 
 .menu-container {
@@ -502,7 +512,7 @@ body {
   .header__contacts-list {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
+    margin: 0 auto;
   }
   .header__contacts-link {
     padding: 10px 0;
@@ -573,12 +583,12 @@ header {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/studio/hero-image-desktop.jpg);
   }
 }
-@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-width: 1200px) and (min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi), (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero-section {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/studio/hero-image-desktop@2x.jpg);
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .hero-section {
     padding-top: 118px;
     padding-bottom: 118px;
@@ -589,18 +599,14 @@ header {
     width: 360px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi), (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
   .hero-section {
     padding-top: 118px;
     padding-bottom: 118px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/studio/hero-image-tablet@2X.jpg);
-  }
-  .hero-section__title {
-    font-size: 26px;
-    width: 360px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/studio/hero-image-tablet@2x.jpg);
   }
 }
-@media screen and (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
   .hero-section {
     padding-top: 118px;
     padding-bottom: 118px;
@@ -611,15 +617,11 @@ header {
     width: 360px;
   }
 }
-@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-width: 480px) and (max-width: 767px) and (min-device-pixel-ratio: 2), (min-width: 480px) and (max-width: 767px) and (min-resolution: 192dpi), (min-width: 480px) and (max-width: 767px) and (min-resolution: 2dppx) {
   .hero-section {
     padding-top: 118px;
     padding-bottom: 118px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/studio/hero-image-mobile@2X.jpg);
-  }
-  .hero-section__title {
-    font-size: 26px;
-    width: 360px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/studio/hero-image-mobile@2x.jpg);
   }
 }
 .header__logo {
@@ -635,7 +637,7 @@ header {
   color: #1976d2;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .header__logo {
     font-size: 24px;
     padding-top: 16px;
@@ -661,7 +663,7 @@ header {
   color: #1976d2;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .footer-address__logo {
     text-align: center;
   }
@@ -979,12 +981,12 @@ header {
     height: 260px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .our-team .our-team__item:not(:last-child) {
     margin-bottom: 30px;
   }
 }
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .our-team .our-team__item {
     margin-bottom: 30px;
   }
@@ -1062,7 +1064,7 @@ header {
     padding: 16px 52px;
   }
 }
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .regular-customer__item {
     width: 226px;
     margin-bottom: 30px;
@@ -1147,7 +1149,7 @@ header {
   margin-right: 12px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .newsletter {
     margin: 0 auto;
   }
@@ -1161,7 +1163,7 @@ header {
     margin-bottom: 20px;
   }
 }
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .newsletter {
     margin: 0 auto;
   }

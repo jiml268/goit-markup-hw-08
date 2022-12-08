@@ -11,6 +11,14 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+<!--
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+    crossorigin="anonymous"
+  />
+-->
 <link
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
@@ -57,7 +65,7 @@
             >
           </li>
         </ul>
-
+<div class="header__hamberger-menu">
         <div class="header__menu-toggle">
           <button
         class="menu-toggle js-open-menu"
@@ -79,7 +87,7 @@
           </svg>
         </button>
       </div>
-    
+    </div>
       </div>
       
     </header>
@@ -192,7 +200,7 @@
                  <source srcset="./images/studio/Christopher-Walker-mobile.jpg 1x, ./images/studio/Christopher-Walker-mobile@2x.jpg 2x" 
                  media="(min-width: 320px)" width="450" height="460"
                  />
-                <img class="our-team__image" src="./images/studio/Christopher-Walker-desk.jpg" alt="Christopher Walker" width="270" height="260"/>
+                <img class="our-team__image" src="./images/studio/Christopher-Walker-desk.jpg" alt="Christopher Walker Picture" width="270" height="260"/>
               </picture >
               <div class="our-team__item-description">
                 <h3 class="our-team__employee-name">Christopher Walker</h3>
@@ -236,15 +244,17 @@
               </div>
             </li>
             <li class="our-team__item">
-              <img class="our-team__image"
-               
-                srcset="./images/studio/kylie-evans.jpg 270w,
-  ./images/studio/kylie-evans-m.jpg 354w,
-  ./images/studio/kylie-evans-l.jpg 450w"
-  sizes="(max-width:767px) 450px, (max-width:1199px) 354px, (min-width: 1200) 270px, 270px"
-  src="./images/studio/kylie-evans.jpg"
-  alt="picture of Kylie Evans"
-              />
+              <picture>
+                <source srcset="./images/studio/Kylie-Evans-desk.jpg 1x, ./images/studio/Kylie-Evans-desk@2x.jpg 2x" 
+                media="(min-width: 1200px)" width="270" height="260"/>
+                 <source srcset="./images/studio/Kylie-Evans-tablet.jpg 1x, ./images/studio/Kylie-Evans-tablet@2x.jpg 2x" 
+                 media="(min-width: 768px)" width="354" height="374"
+                 />
+                 <source srcset="./images/studio/Kylie-Evans-mobile.jpg 1x, ./images/studio/Kylie-Evans-mobile@2x.jpg 2x" 
+                 media="(min-width: 320px)" width="450" height="460"
+                 />
+                <img class="our-team__image" src="./images/studio/Kylie-Evans-desk.jpg" alt="Kylie Evans Picture" width="270" height="260"/>
+              </picture >
               <div class="our-team__item-description">
                 <h3 class="our-team__employee-name">Kylie Evans</h3>
                 <p class="our-team__employee-postion">Frontend Developer</p>
@@ -287,15 +297,17 @@
               </div>
             </li>
             <li class="our-team__item">
-              <img class="our-team__image"
-                src="./images/studio/ryan-harris.jpg"
-                alt="picture of Ryan Harris"
-                srcset="./images/studio/ryan-harris.jpg 270w,
-                ./images/studio/ryan-harris-m.jpg 354w,
-                ./images/studio/ryan-harris-l.jpg 450w"
-                sizes="(max-width:767px) 450px, (max-width:1199px) 354px, (min-width: 1200) 270px, 270px"             
-                              
-              />
+              <picture>
+                <source srcset="./images/studio/Ryan-Harris-desk.jpg 1x, ./images/studio/Ryan-Harris-desk@2x.jpg 2x" 
+                media="(min-width: 1200px)" width="270" height="260"/>
+                 <source srcset="./images/studio/Ryan-Harris-tablet.jpg 1x, ./images/studio/Ryan-Harris-tablet@2x.jpg 2x" 
+                 media="(min-width: 768px)" width="354" height="374"
+                 />
+                 <source srcset="./images/studio/Ryan-Harris-mobile.jpg 1x, ./images/studio/Ryan-Harris-mobile@2x.jpg 2x" 
+                 media="(min-width: 320px)" width="450" height="460"
+                 />
+                <img class="our-team__image" src="./images/studio/Ryan-Harris-desk.jpg" alt="Ryan Harris picture" width="270" height="260"/>
+              </picture >
               <div class="our-team__item-description">
                 <h3 class="our-team__employee-name">Ryan Harris</h3>
                 <p class="our-team__employee-postion">Marketing</p>
@@ -338,14 +350,17 @@
               </div>
             </li>
             <li class="our-team__item">
-              <img class="our-team__image"
-                src="./images/studio/tyler-moore.jpg"
-                alt="picture of Tyler Moore"
-                srcset="./images/studio/tyler-moore.jpg 270w,
-                ./images/studio/tyler-moore-m.jpg 354w,
-                ./images/studio/tyler-moore-l.jpg 450w"
-                sizes="(max-width:767px) 450px, (max-width:1199px) 354px, (min-width: 1200) 270px, 270px"                
-              />
+              <picture>
+                <source srcset="./images/studio/Tyler-Moore-desk.jpg 1x, ./images/studio/Tyler-Moore-desk@2x.jpg 2x" 
+                media="(min-width: 1200px)" width="270" height="260"/>
+                 <source srcset="./images/studio/Tyler-Moore-tablet.jpg 1x, ./images/studio/Tyler-Moore-tablet@2x.jpg 2x" 
+                 media="(min-width: 768px)" width="354" height="374"
+                 />
+                 <source srcset="./images/studio/Tyler-Moore-mobile.jpg 1x, ./images/studio/Tyler-Moore-mobile@2x.jpg 2x" 
+                 media="(min-width: 320px)" width="450" height="460"
+                 />
+                <img class="our-team__image" src="./images/studio/Tyler-Moore-desk.jpg" alt="Tyler Moore Picture" width="270" height="260"/>
+              </picture >
               <div class="our-team__item-description">
                 <h3 class="our-team__employee-name">Tyler Moore</h3>
                 <p class="our-team__employee-postion">UI Designer</p>
