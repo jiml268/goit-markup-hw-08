@@ -15,7 +15,6 @@
 
 .regular-customer__list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 
 }
@@ -29,6 +28,8 @@
     border: 1px solid variables.$border-color;
     border-radius: 4px;
     fill: #AFB1B8;
+    width: 170px;
+    height: 92px;
 
 
 &:hover, &:focus{

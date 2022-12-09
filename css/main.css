@@ -180,6 +180,8 @@ body {
 }
 
 .feature__image {
+  height: 120px;
+  width: 270px;
   background-color: rgb(245, 244, 250);
   padding: 25px 100px;
   align-items: center;
@@ -1032,7 +1034,6 @@ header {
 
 .regular-customer__list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -1045,6 +1046,8 @@ header {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   fill: #AFB1B8;
+  width: 170px;
+  height: 92px;
 }
 .regular-customer__link:hover, .regular-customer__link:focus {
   fill: #2196f3;
