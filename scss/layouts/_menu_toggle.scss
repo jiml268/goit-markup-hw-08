@@ -1,15 +1,5 @@
 @use "../utils/variables";
 
-.header__hamberger-menu{
-  display: none;
-  margin-left: 284px;
-}
-@media (max-width: 768px)  
-{   .header__hamberger-menu{
-  display: flex;
-    }
-}
-
 .menu-toggle {
     min-height: 40px;
     min-width: 40px;

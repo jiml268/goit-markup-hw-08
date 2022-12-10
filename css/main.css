@@ -341,16 +341,6 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.header__hamberger-menu {
-  display: none;
-  margin-left: 284px;
-}
-
-@media (max-width: 768px) {
-  .header__hamberger-menu {
-    display: flex;
-  }
-}
 .menu-toggle {
   min-height: 40px;
   min-width: 40px;
@@ -1114,7 +1104,7 @@ header {
   display: flex;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .navigation__list {
     display: none;
   }
