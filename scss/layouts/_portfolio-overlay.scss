@@ -10,6 +10,17 @@
     overflow: hidden;
 }
 
+@media (max-width: 768px)  
+{   .box {
+    width: 450px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1200px)  
+{ .box {
+    width: 354px;
+    }
+}
+
 .overlay {
     position: absolute;
     top: 0;

@@ -4,7 +4,7 @@
   display: none;
   margin-left: 284px;
 }
-@media (max-width: 767px)  
+@media (max-width: 768px)  
 {   .header__hamberger-menu{
   display: flex;
     }
@@ -26,7 +26,7 @@
     outline: none;
   }
   
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .menu-toggle {
       display: none;
     }

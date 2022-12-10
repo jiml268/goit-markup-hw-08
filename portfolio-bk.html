@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+  
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+    crossorigin="anonymous"
+  />
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>WebStudio</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header__bar">
+        <a href="./index.html" class="header__logo"> WebStudio</a>
+      
+        <nav>
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="./index.html" class="navigation__link ">
+                Studio</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a href="./portfolio.html" class="navigation__link navigation__current-page"> Portfolio</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link"> Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header__contacts-list">
+          <li class="header__contacts-item">
+            <a href="mailto:info@example.com" class="header__contacts-link">
+              <svg width="16" height="12" class="header__contacts-svg">
+                <use href="./images/svg/icons.svg#icon-envelope"></use>
+              </svg>
+              info@example.com</a
+            >
+          </li>
+          <li class="header__contacts-item">
+            <a href="tel:12127724150" class="header__contacts-link">
+              <svg width="10" height="16" class="header__contacts-svg">
+                <use href="./images/svg/icons.svg#icon-smartphone"></use>
+              </svg>
+              +1 212-772-4150</a
+            >
+          </li>
+        </ul>
+<div class="header__hamberger-menu">
+        <div class="header__menu-toggle">
+          <button
+        class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+      </div>
+      
+    </header>
+    <main>
+      <section class="section">
+        <div class="container">
+          <ul class="portfolio__button-list">
+            <li class="portfolio__button-item">
+              <button type="button" class="portfolio__work-button">All</button>
+            </li>
+            <li class="portfolio__button-item">
+              <button type="button" class="portfolio__work-button">
+                Web-sites
+              </button>
+            </li>
+            <li class="portfolio__button-item">
+              <button type="button" class="portfolio__work-button">Apps</button>
+            </li>
+            <li class="portfolio__button-item">
+              <button type="button" class="portfolio__work-button">Design</button>
+            </li>
+            <li class="portfolio__button-item">
+              <button type="button" class="portfolio__work-button">
+                Marketing
+              </button>
+            </li>
+          </ul>
+          <ul class="portfolio-image__list">
+            <li class="portfolio-image__item">
+              <div class="box">
+                <img
+                  src="./images/portfolio/make-the-difference.jpg"
+                  alt="picture of three people"
+                  width="370"
+                />
+                <div class="overlay">
+                  <p class="overlay-text">
+                    Technoduck is a state-of-the-art coronavirus distribution
+                    platform. Companies use this platform for digital espionage
+                    and attacks on competitors' secure servers.
+                  </p>
+                </div>
+              </div>
+              <div class="portfolio-image__card-contact">
+                <h3 class="portfolio-image__project-title">Technoduck</h3>
+                <p class="portfolio-image__project-type">Web-site</p>
+              </div>
+            </li>
+
+            <li class="portfolio-image__item">
+              <div class="box">
+                <img
+                  src="./images/portfolio/basketball-players.jpg"
+                  alt="two basketball players"
+                  width="370"
+                />
+                <div class="overlay">
+                  <p class="overlay-text"></p>
+                </div>
+              </div>
+              <div class="portfolio-image__card-contact">
+                <h3 class="portfolio-image__project-title">Poster New Orlean vs Golden Star</h3>
+                <p class="portfolio-image__project-type">Design</p>
+              </div>
+            </li>
+            <li class="portfolio-image__item">
+              <div class="box">
+                <img
+                  src="./images/portfolio/the-seafood-restaurant.jpg"
+                  alt="the seafood restaurant logo"
+                  width="370"
+                />
+                <div class="overlay">
+                  <p class="overlay-text"></p>
+                </div>
+              </div>
+              <div class="portfolio-image__card-contact">
+                <h3 class="portfolio-image__project-title">Seafood Restaurant</h3>
+                <p class="portfolio-image__project-type">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-image__item">
+              <div class="box">
+                <img
+                  src="./images/portfolio/headphones.jpg"
+                  alt="headphones"
+                  width="370"
+                />
+                <div class="overlay">
+                  <p class="overlay-text"></p>
+                </div>
+              </div>
+              <div class="portfolio-image__card-contact">
+                <h3 class="portfolio-image__project-title">Project Prime</h3>
+                <p class="portfolio-image__project-type">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-image__item">
+              <div class="box">
+                <img
+                  src="./images/portfolio/two-boxes.jpg"
+                  alt="two boxes"
+                  width="370"
+                />
+                <div class="overlay">
+                  <p class="overlay-text"></p>
+                </div>
+              </div>
+              <div class="portfolio-image__card-contact">
+                <h3 class="portfolio-image__project-title">Project Boxes</h3>
+                <p class="portfolio-image__project-type">Apps</p>
+              </div>
+            </li>
+            <li class="portfolio-image__item">
+              <div class="box">
+                <img
+                  src="./images/portfolio/inspiration.jpg"
+                  alt="computer monitor with inspiration message"
+                  width="370"
+                />
+                <div class="overlay">
+                  <p class="overlay-text"></p>
+                </div>
+              </div>
+              <div class="portfolio-image__card-contact">
+                <h3 class="portfolio-image__project-title">Inspiration has no Borders</h3>
+                <p class="portfolio-image__project-type">Web-site</p>
+              </div>
+            </li>
+            <li class="portfolio-image__item">
+              <div class="box">
+                <img
+                  src="./images/portfolio/limited-addition.jpg"
+                  alt="limited edition book"
+                  width="370"
+                />
+                <div class="overlay">
+                  <p class="overlay-text"></p>
+                </div>
+              </div>
+              <div class="portfolio-image__card-contact">
+                <h3 class="portfolio-image__project-title">Limited Edition</h3>
+                <p class="portfolio-image__project-type">Design</p>
+              </div>
+            </li>
+            <li class="portfolio-image__item">
+              <div class="box">
+                <img
+                  src="./images/portfolio/lable-tag.jpg"
+                  alt="picture of a lable"
+                  width="370"
+                />
+                <div class="overlay">
+                  <p class="overlay-text"></p>
+                </div>
+              </div>
+              <div class="portfolio-image__card-contact">
+                <h3 class="portfolio-image__project-title">Project LAB</h3>
+                <p class="portfolio-image__project-type">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-image__item">
+              <div class="box">
+                <img
+                  src="./images/portfolio/growing-business.jpg"
+                  alt="laptop with growing business website"
+                  width="370"
+                />
+                <div class="overlay">
+                  <p class="overlay-text"></p>
+                </div>
+              </div>
+              <div class="portfolio-image__card-contact">
+                <h3 class="portfolio-image__project-title">Growing Business</h3>
+                <p class="portfolio-image__project-type">Apps</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__section">
+        <div class="footer-address-container">
+          <address class="footer-address">
+            <ul>
+              <li>
+                <a href="./index.html" class="footer-address__logo">WebStudio</a>
+              </li>
+              <li>
+                <a
+                  href="https://goo.gl/maps/5cGNWwdfsy72YUbW6"
+                  class="footer-address__link"
+                  target="_blank"
+                >
+                  695 Park Ave, New York, NY 10065, United States
+                </a>
+              </li>
+              <li>
+                <a href="mailto:info@example.com" class="footer-address__contact"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+1212-772-4150" class="footer-address__contact"
+                  >+1 212-772-4150</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="find-us-container">
+          <p class="find-us__head">Find us on</p>
+
+          <ul class="social-media">
+            <li class="social-media__item">
+              <a href="#" target="_blank" class="footer-social-media__link">
+                <svg
+                  width="20"
+                  height="20"
+                  fill="#fff"
+                  class="social-media__icon"
+                >
+                  <use href="./images/svg/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media__item">
+              <a href="#" target="_blank" class="footer-social-media__link">
+                <svg
+                  width="20"
+                  height="20"
+                  fill="#fff"
+                  class="social-media__icon"
+                >
+                  <use href="./images/svg/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media__item">
+              <a href="#" target="_blank" class="footer-social-media__link">
+                <svg
+                  width="20"
+                  height="20"
+                  fill="#fff"
+                  class="social-media__icon"
+                >
+                  <use href="./images/svg/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media__item">
+              <a href="#" target="_blank" class="footer-social-media__link">
+                <svg
+                  width="20"
+                  height="20"
+                  fill="#fff"
+                  class="social-media__icon"
+                >
+                  <use href="./images/svg/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="newsletter">
+          <h3 class="newsletter__head">SUBSCRIBE TO THE NEWSLETTER</h3>
+          <form action="#" class="newsletter__form">
+            <label class="newsletter__lable">
+              <input required
+                class="newsletter__input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="newsletter__button" type="submit">
+              Subscribe
+              <svg class="newsletter__send-icon" width="24px" height="24px">
+                <use href="./images/svg/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill= "#000000"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li> <a href="./index.html" class="mobile-menu__link">
+          Studio</a></li>
+          <li> <a href="./portfolio.html" class="mobile-menu__link mobile-menu__current-page">
+            Portfolio</a></li>
+            <li> <a href="#" class="mobile-menu__link ">
+              Contacts</a></li>  
+      </ul>
+      <ul class="mobile-contact">
+        <a href="mailto:info@example.com"  class="mobile-contact__link ">
+          info@example.com</a></li>
+        <a href="tel:12127724150"  class="mobile-contact__link ">
+          +1 212-772-4150</a></li>
+      </ul>
+
+      <ul class="mobile-media">
+        <li class="mobile-media__item">
+          <a href="#" target="_blank" class="mobile-media__link">
+            Instagram
+          </a>
+        </li>
+        <li class="mobile-media__item">
+          <a href="#" target="_blank" class="mobile-media__link">
+            Twitter
+          </a>
+        </li>
+        <li  class="mobile-media__item">
+          <a href="#" target="_blank" class="mobile-media__link">
+            Facebook
+          </a>
+        </li>
+        <li class="mobile-media__item">
+          <a href="#" target="_blank" class="mobile-media__link">
+            LinkedIn
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"
+  ></script>
+  <script src="./js/modal.js"></script>
+  <script defer src="js/mobile-menu.js"></script>
+  </body>
+</html>

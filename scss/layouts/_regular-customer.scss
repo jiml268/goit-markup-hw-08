@@ -15,6 +15,7 @@
 
 .regular-customer__list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 
 }
@@ -24,6 +25,8 @@
 }
 
 .regular-customer__link {
+    width: 170px;
+    height: 92px;;
     padding: 16px 32px;
     border: 1px solid variables.$border-color;
     border-radius: 4px;
@@ -40,7 +43,7 @@
 }
 
 
-@media (max-width: 767px)  
+@media (max-width: 768px)  
 { 
     .regular-customer__item {
         width: 210px;
@@ -53,13 +56,14 @@
     }
     
     .regular-customer__link {
+        width: 210px;
         padding: 16px 52px;
     }
 
 }
 
 
-@media (min-width: 768px) and (max-width: 1199px)  
+@media (min-width: 768px) and (max-width: 1200px)  
 { 
     .regular-customer__item {
         width: 226px;
@@ -72,6 +76,7 @@
     }
     
     .regular-customer__link {
+        width: 226px;
         padding: 16px 60px;
     }
 
