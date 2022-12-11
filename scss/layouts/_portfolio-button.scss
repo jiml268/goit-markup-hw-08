@@ -35,7 +35,8 @@
 
 }
 }
-@media (max-width: 768px)  
+@media (min-width: 480px) and (max-width: 767px)  
+  
 {   .portfolio__button-list {
     justify-content: normal;;
     }
@@ -45,6 +46,23 @@
 
 
             .portfolio__work-button:not(:nth-last-child(-n+2))    {
+                margin-bottom: 15px;
+            }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 479px)  
+  
+{   .portfolio__button-list {
+    justify-content: normal;;
+    }
+
+    .portfolio__work-button {
+            margin-bottom: 15px;}
+
+
+            .portfolio__work-button:not(:last-child)    {
                 margin-bottom: 15px;
             }
 

@@ -93,6 +93,8 @@
     text-decoration: none;
   }
   
+ 
+
   .mobile-contact__link:hover {
     color: #2196F3;  }
 
@@ -124,3 +126,24 @@ border-right: 1px solid rgba(33, 33, 33, 0.2);
 
   .mobile-media__link:hover {
     color: variables.$button-hover-color;  }
+
+    @media (min-width: 320px) and (max-width: 479px) {
+      .mobile-contact__link {
+        padding: 32px 0 0 30px;
+        font-size: 25px;          } 
+
+        .mobile-media {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+
+           padding-top: 40px;
+           padding-left: 40px;
+           margin: 0;
+           list-style: none;
+          }
+
+          .mobile-media__link {
+            padding-bottom: 10px;
+          }
+        }

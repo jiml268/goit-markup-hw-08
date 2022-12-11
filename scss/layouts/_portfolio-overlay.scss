@@ -10,12 +10,18 @@
     overflow: hidden;
 }
 
-@media (max-width: 768px)  
+@media (max-width: 479px)  
+{   .box{
+    width: 100%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px)  
 {   .box {
     width: 450px;
     }
 }
-@media (min-width: 768px) and (max-width: 1200px)  
+@media (min-width: 768px) and (max-width: 1199px)  
 { .box {
     width: 354px;
     }

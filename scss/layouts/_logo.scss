@@ -12,7 +12,9 @@
         color: variables.$button-hover-color; 
      }
 }
-@media (max-width: 768px){
+
+@media (min-width: 480px) and (max-width: 767px)  
+{
     .header__logo {
         font-size: 24px;
         padding-top: 16px;
@@ -20,7 +22,7 @@
     }
 }
 
-@media (min_width: 768) and (max-width: 1200px){
+@media (min_width: 768) and (max-width: 1199px){
     .header__logo {
         font-size: 24px
 }
@@ -43,7 +45,8 @@
     }
 }
 
-@media (max-width: 768px)  
+@media (min-width: 480px) and (max-width: 767px)  
+  
 {   .footer-address__logo{
     text-align: center;
     }

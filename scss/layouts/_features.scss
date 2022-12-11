@@ -51,7 +51,23 @@
         color: variables.$main-title-color;
     }
 
-    @media (max-width: 768px)  
+    @media (min-width: 320px) and (max-width: 479px) 
+    {   .feature__item{
+        width: 100%;
+    
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }    
+        .feature__image {
+
+            padding: 25px calc(100%/2 - 70px);
+            width:100%;
+        }
+    }
+
+
+    @media (min-width: 480px) and (max-width: 767px)    
     { 
     
         .feature__item {
@@ -68,7 +84,7 @@
     
     }
     
-    @media (min-width: 768px) and (max-width: 1200px)  
+    @media (min-width: 768px) and (max-width: 1199px)  
     { 
     
         .feature__item {

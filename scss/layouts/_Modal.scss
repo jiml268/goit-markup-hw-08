@@ -191,7 +191,7 @@ color: #757575;
     color: variables.$button-hover-color;
  }
 
- @media (max-width: 1200px){
+ @media (min-width: 480px) and (max-width: 1199px){
     .modal-window {
        width: 450px;
     }
@@ -206,5 +206,22 @@ color: #757575;
     }
     .modal-window__input-comment {
         width: 370px;
+   }
+}
+@media (min-width: 320px) and (max-width: 479px){
+    .modal-window {
+       width: 320px;
+    }
+    .modal-window__form {
+        width: 240px;}
+    .modal-window__title {
+       margin-bottom: 12px;
+    }
+    .modal-window__label {
+        display: flex;
+        width: 240px;
+    }
+    .modal-window__input-comment {
+        width: 240px;
    }
 }
