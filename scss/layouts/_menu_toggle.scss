@@ -87,7 +87,22 @@
 
     .mobile-menu__current-page{
       color: #2196F3;  
+      position: relative;
+    display: inline-block;
     }
+
+    .mobile-menu__current-page::after {
+      content: '';
+      width: 100%;
+      background: #2196F3;
+      height: 4px;
+      background-color: variables.$accent-color;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+  
+  }
+
 .mobile-contact-footer{
   bottom: 0px;
   position: absolute;
