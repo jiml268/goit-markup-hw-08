@@ -3,7 +3,7 @@
     font-family: 'raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: calc(31/26);
     letter-spacing: 0.03em;
     color: variables.$accent-color;
     margin-right: 97px;
@@ -17,14 +17,17 @@
 {
     .header__logo {
         font-size: 24px;
+        line-height: calc(28/26);
         padding-top: 16px;
         padding-bottom: 16px;
     }
 }
 
-@media (min_width: 768) and (max-width: 1199px){
-    .header__logo {
-        font-size: 24px
+@media (min-width: 768px) and (max-width: 1199px)
+{    .header__logo {
+        font-size: 24px;
+        line-height: calc(28/26);
+        margin-right: 88px;
 }
 }
 

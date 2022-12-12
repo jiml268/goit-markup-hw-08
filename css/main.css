@@ -381,6 +381,10 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.header__menu-toggle {
+  margin-left: auto;
+}
+
 .menu-toggle {
   min-height: 40px;
   min-width: 40px;
@@ -464,9 +468,14 @@ body {
   color: #2196F3;
 }
 
+.mobile-contact-footer {
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+}
+
 .mobile-contact {
   padding: 0;
-  padding-top: 200px;
   margin: 0;
   list-style: none;
 }
@@ -514,21 +523,29 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
+  .menu-container {
+    padding: 0;
+  }
   .mobile-contact__link {
     padding: 32px 0 0 30px;
-    font-size: 25px;
+    font-size: 30px;
   }
   .mobile-media {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    margin: 0;
     padding-top: 40px;
-    padding-left: 40px;
+    padding-left: 0;
     margin: 0;
     list-style: none;
   }
   .mobile-media__link {
-    padding-bottom: 10px;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    padding-right: 10px;
+    margin-right: 10px;
   }
 }
 .header__contacts-list {
@@ -706,7 +723,7 @@ header {
   font-family: "raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.1923076923;
   letter-spacing: 0.03em;
   color: #2196f3;
   margin-right: 97px;
@@ -718,13 +735,16 @@ header {
 @media (min-width: 480px) and (max-width: 767px) {
   .header__logo {
     font-size: 24px;
+    line-height: 1.0769230769;
     padding-top: 16px;
     padding-bottom: 16px;
   }
 }
-@media (min_width: 768) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .header__logo {
     font-size: 24px;
+    line-height: 1.0769230769;
+    margin-right: 88px;
   }
 }
 .footer-address__logo {

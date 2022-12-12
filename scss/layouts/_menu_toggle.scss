@@ -1,5 +1,9 @@
 @use "../utils/variables";
 
+.header__menu-toggle{
+  margin-left: auto;
+}
+
 .menu-toggle {
     min-height: 40px;
     min-width: 40px;
@@ -84,9 +88,14 @@
     .mobile-menu__current-page{
       color: #2196F3;  
     }
+.mobile-contact-footer{
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+}
+
     .mobile-contact {
     padding: 0;
-    padding-top: 200px;
     margin: 0;
     list-style: none;
   }
@@ -136,22 +145,30 @@ border-right: 1px solid rgba(33, 33, 33, 0.2);
     color: variables.$button-hover-color;  }
 
     @media (min-width: 320px) and (max-width: 479px) {
+      .menu-container {
+        padding: 0;
+      }
       .mobile-contact__link {
         padding: 32px 0 0 30px;
-        font-size: 25px;          } 
+        font-size: 30px;          } 
 
         .mobile-media {
           display: flex;
           flex-direction: row;
-          flex-wrap: wrap;
-
+          margin: 0;
            padding-top: 40px;
-           padding-left: 40px;
+           padding-left: 0;
            margin: 0;
            list-style: none;
           }
 
+        
           .mobile-media__link {
-            padding-bottom: 10px;
+        font-size: 13px;
+        line-height: 22px;
+        letter-spacing: 0.02em;
+        color: #2196F3;
+        padding-right: 10px;
+    margin-right: 10px;
           }
         }
