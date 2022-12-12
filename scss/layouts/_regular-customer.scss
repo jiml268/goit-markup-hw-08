@@ -45,18 +45,20 @@
 @media (min-width: 320px) and (max-width: 479px)  
 { 
     .regular-customer__item {
-        width: 210px;
+        width: 127px;
         margin-bottom: 30px;
-
+        &:not(:nth-child(2n)) {
+            margin-right: 30px;
+        }
     }
     
     .regular-customer__link {
-        width: 210px;
-        padding: 16px 52px;
+        width: 127px;
+        padding: 15px 9px;
     }
 .regular-customer__list
-{flex-direction: column;
-    align-items: center;
+{flex-direction: row;
+    flex-wrap: wrap;
 }
 
 }

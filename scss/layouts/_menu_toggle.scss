@@ -114,17 +114,27 @@
     margin: 0;
     list-style: none;
   }
-  .mobile-contact__link {
+  .mobile-contact__link-email {
     display: block;
     padding: 32px 0 0 40px;
     font-weight: 500;
-    font-size: 40px;
-    line-height: 47px;
-    letter-spacing: 0.02em;
-    color: #212121;    
+font-size: 34px;
+line-height: calc(40/34);
+letter-spacing: 0.02em;
+color: #2196F3;
     text-decoration: none;
   }
   
+  .mobile-contact__link-phone {
+    display: block;
+    padding: 32px 0 0 40px;
+    font-weight: 500;
+font-size: 24px;
+line-height: calc(28/24);
+letter-spacing: 0.02em;
+color: #757575; 
+    text-decoration: none;
+  }
  
 
   .mobile-contact__link:hover {
